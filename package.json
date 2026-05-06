@@ -1,0 +1,22 @@
+{
+  "name": "vue-sfc-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev:slidev": "pnpm -F @vue-sfc-demo/presentation dev",
+    "build:slidev": "pnpm -F @vue-sfc-demo/presentation build",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-format": "^2.0.1",
+    "typescript": "catalog:",
+    "vitest": "catalog:",
+    "@vitest/coverage-v8": "catalog:"
+  }
+}
