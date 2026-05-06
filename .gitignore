@@ -1,2 +1,6 @@
 apps/presentation/node_modules
 node_modules
+coverage
+dist
+.DS_Store
+.env*
